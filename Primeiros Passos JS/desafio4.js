@@ -16,7 +16,7 @@ IMC em adultos Condição:
 - Acima de 40 Obsesidade Grave;
  */
 
-const peso = 91;
+const peso = 60;
 const altura = 1.50;
 const imc = peso / (altura * altura);
 
