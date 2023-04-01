@@ -38,8 +38,8 @@ class Pessoa{
     }
 }
 
-const jose = new Pessoa('jose', 70, 1.75);
+const jose = new Pessoa('Jose', 70, 1.75);
 console.log('O meu IMC é: ' + jose.calcularImc().toFixed(2) + ' - ' + jose.classificarImc());
 
-const ana = new Pessoa('Ana', 62, 1.5);
-console.log('O meu IMC é: ' + ana.calcularImc().toFixed(2) + ' - ' +ana.classificarImc());
+const maria = new Pessoa('Maria', 62, 1.5);
+console.log('O meu IMC é: ' + maria.calcularImc().toFixed(2) + ' - ' +maria.classificarImc());

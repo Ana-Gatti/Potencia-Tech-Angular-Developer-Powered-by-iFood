@@ -25,7 +25,7 @@ const palio = new Carro('Fiat', 'Preto', 0.1);
 valorGasto = palio.CalcularGastoDoPercurso(70, 5.49);
 console.log('o valor gasto no percurso com palio é de: R$ ' + valorGasto.toFixed(2));
 
-const uno = new Carro('Fiat', 'Preto', 0.084);
+const uno = new Carro('Fiat', 'Branco', 0.084);
 valorGasto = uno.CalcularGastoDoPercurso(70, 5.49);
 console.log('o valor gasto no percurso com uno é de: R$ ' + valorGasto.toFixed(2));
 
